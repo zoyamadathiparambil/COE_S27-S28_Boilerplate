@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+body {
+    background: lightyellow;
+}
+/* Styling Text */
+#heading {
+    text-align: center;
+    font-size: 4em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/* fixing the emoji */
+.wrapper {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+/* Animation */
+.emoji-face:hover {
+    transform: scale(1.25);
+}
+
+/* Styling write-up */
+.write-up {
+    background-color: #d8aa2b;
+    padding: 5% 10%;
+    margin: 10% 20%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Itearation 1: Create the emoji face by stylish the class .emoji-face */
+
+
+/* Iteration 2:  Create the eye for the emoji by stylish the class .eye1 & .eye2*/
+
+
+
+/* Iteration 3:  Create the mouth for the 1st emoji by stylish the class .mouth */
+
+
+/* Iteration 4:  Create the tongue for the 1st emoji by stylish the class .tongue */
+
+
+
+/* Iteration 5:  Create the mouth for the 1st emoji by stylish the class .mouth */
+
+
+/* Iteration 6:  Create the mouth for the 1st emoji by stylish the class .mouth */
+
+
+/* Iteration 7: Placing the emoji one after another using float property */
+
+
+
+
