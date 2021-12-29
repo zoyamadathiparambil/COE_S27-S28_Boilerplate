@@ -43,26 +43,92 @@ p {
 }
 
 /* Itearation 1: Create the emoji face by stylish the class .emoji-face */
-
+.emoji-face {
+    background: #F2DD68;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.07);
+    position: relative;
+}
 
 /* Iteration 2:  Create the eye for the emoji by stylish the class .eye1 & .eye2*/
+.eye1 {
+    background: #995710;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
 
-
+.eye2 {
+    background: #995710;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
 
 /* Iteration 3:  Create the mouth for the 1st emoji by stylish the class .mouth */
-
+.mouth{
+    background: #995710;
+    height: 34px;
+    width: 70px;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    border-radius: 0 0 90px 90px;
+}
 
 /* Iteration 4:  Create the tongue for the 1st emoji by stylish the class .tongue */
+.tongue{
+    background-color: #e25d5d;
+    width: 38px;
+    height: 38px;
+    border-radius: 40%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+}
 
+/* Iteration 5:  Create the mouth for the 2nd emoji by stylish the class .mouth */
+.mouth-shock{
+    background: #995710;
+    height: 25px;
+    width: 23px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    border-radius: 50%;
+}
 
-
-/* Iteration 5:  Create the mouth for the 1st emoji by stylish the class .mouth */
-
-
-/* Iteration 6:  Create the mouth for the 1st emoji by stylish the class .mouth */
-
+/* Iteration 6:  Create the mouth for the 3rd emoji by stylish the class .mouth */
+.mouth-speechless{
+    background: #995710;
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: 60px;
+    left: 16px;
+}
 
 /* Iteration 7: Placing the emoji one after another using float property */
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+.wrapper{
+    position: relative;
+    top: 0px;
+    left: 300px;
+}
 
 
 
